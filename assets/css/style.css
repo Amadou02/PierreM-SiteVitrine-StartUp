@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+section {
+  width: 100%;
+  height: auto;
+}
+/* HEADER BEGIN*/
+#header {
+  top: 0;
+  min-height: 500px;
+  max-width: 100%;
+  background-color: black;
+}
+/* HEADER END*/
+/* PRESENTATION-RAPIDE BEGIN*/
+#presentation-rapide {
+  height: 1000px;
+  width: 100%;
+  background-color: #dcdcdc;
+}
+/* PRESENTATION-RAPIDE END*/
+/* PARTICIPANTS BEGIN*/
+#participants {
+  height: 1000px;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+/* PARTICIPANTS END*/
+/* PRESENTATION-DETAIL BEGIN*/
+#presentation-detail {
+  height: 1000px;
+  width: 100%;
+  background-color: #dcdcdc;
+}
+/* PRESENTATION-DETAIL END*/
+/* FOOTER BEGIN*/
+footer {
+  height: 1000px;
+  width: 100%;
+  background-color: black;
+}
+/* FOOTER END */

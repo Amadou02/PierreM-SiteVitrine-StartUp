@@ -9,8 +9,8 @@ section {
 }
 /* HEADER BEGIN*/
 #header {
+  display: flex;
   font-family: 'Poppins', sans-serif;
-  color: white;
   min-height: 500px;
   max-width: 100%;
   background-color: #3C3C3C;
@@ -81,11 +81,29 @@ li:first-child {
   display: flex;
 }
 /* PARTICIPANTS END*/
+/* PROGRAMME BEGIN*/
+#programme {
+  height: 1000px;
+  width: 100%;
+  background-color: #1A4766;
+}
+table {
+  font-family: 'Lato';
+  border-collapse: collapse;
+  width: auto;
+  min-width: 60%;
+  margin: auto;
+}
+td, th {
+  border: 1px solid black;
+  text-align: center;
+}
+/* PROGRAMME END*/
 /* PRESENTATION-DETAIL BEGIN*/
 #presentation-detail {
   height: 1000px;
   width: 100%;
-  background-color: #1A4766;
+  background-color: #14354f;
 }
 /* PRESENTATION-DETAIL END*/
 /* FOOTER BEGIN*/

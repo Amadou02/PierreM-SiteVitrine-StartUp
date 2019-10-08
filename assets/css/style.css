@@ -93,5 +93,29 @@ footer {
   height: 250px;
   width: 100%;
   background-color: #3C3C3C;
+  margin: 0;
+  padding: 0;
+  }
+#footcontainer
+{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color:white;}
+
+  p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color:black;
+  }
+
+.tel
+{
+    font-size: 15px;
 }
+
+
+
+
 /* FOOTER END */

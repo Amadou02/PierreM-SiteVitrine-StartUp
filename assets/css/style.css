@@ -9,12 +9,25 @@ section {
 }
 /* HEADER BEGIN*/
 #header {
+  display: flex;
   font-family: 'Poppins', sans-serif;
-  color: white;
   min-height: 500px;
   max-width: 100%;
   background-color: #3C3C3C;
   margin-bottom: -20px;
+}
+.Logo {
+  position: relative;
+  background-image: url("../img/StartupWE.png");
+  background-size:contain; /* Important*/
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
 }
 /* HEADER END*/
 /* BARRE DE NAVIGATION BEGIN */
@@ -35,17 +48,16 @@ ul {
   height: 45px;
   background-color: #606060;
   color: white;
-  font-size: 115%;
   border-left: 30px solid #606060;
 }
 li {
-  width: 150px;
+  font-size: 150%;
+  width: 25%;
   background-color: #29AAE3;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 8px;
-  padding-bottom: 15px;
+  padding-top: 3px;
   border-right: 2px solid white;
   font-family: 'Poppins';
 }
@@ -81,17 +93,67 @@ li:first-child {
   display: flex;
 }
 /* PARTICIPANTS END*/
-/* PRESENTATION-DETAIL BEGIN*/
-#presentation-detail {
+/* PROGRAMME BEGIN*/
+#programme {
   height: 1000px;
   width: 100%;
   background-color: #1A4766;
+  display: flex;
 }
-/* PRESENTATION-DETAIL END*/
+table {
+  font-family: 'Lato';
+  border-collapse: collapse;
+  margin: auto;
+  background-color: lightgray;
+}
+#vendredi, #samedi, #dimanche {
+  max-width: 30%;
+  height: 500px;
+}
+#titre-vendredi, #titre-samedi, #titre-dimanche {
+  height: 50px;
+  font-size: 135%;
+}
+tr, th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+td {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+th {
+  background-color: #29AAE3;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* PROGRAMME END*/
 /* FOOTER BEGIN*/
 footer {
   height: 250px;
   width: 100%;
   background-color: #3C3C3C;
+  margin: 0;
+  padding: 0;
 }
-/* FOOTER END */
+#footcontainer
+{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color:white;}
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color:black;
+  }
+.tel
+  {
+    font-size: 15px;
+  }
+  /* FOOTER END */

@@ -36,7 +36,7 @@ div#nav {
   position: sticky;
   top: 0;
 }
-ul {
+.navigation {
   font-family: "PantonNarrowBlack";
   list-style-type: none;
   overflow: hidden;
@@ -46,7 +46,7 @@ ul {
   color: white;
   border-left: 30px solid #606060;
 }
-li {
+.element {
   font-size: 150%;
   width: 25%;
   background-color: #29AAE3;
@@ -65,7 +65,7 @@ li:hover  {
   background-color: #2081ab;
   cursor: pointer;
 }
-li:first-child {
+#nav li:first-child {
   margin-left: -40px;
   border-left: 2px solid white;
 }
@@ -87,6 +87,22 @@ li:first-child {
   width: 100%;
   background-color: #14354f;
   display: flex;
+  font-family: 'Lato';
+}
+.titre-coach, .titre-jury{
+  font-size:60px;
+}
+.Nom{
+  font-weight: bold;
+}
+.coach-jury{
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+  flex-direction: column;
+  flex-basis: auto;
+  font-size: 40px;
+  padding-bottom: 30px;
 }
 /* PARTICIPANTS END*/
 /* PROGRAMME BEGIN*/

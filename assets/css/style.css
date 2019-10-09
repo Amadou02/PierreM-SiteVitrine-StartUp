@@ -13,7 +13,6 @@ Hhtml, body {
   margin-bottom: -20px;
 }
 .Logo {
-
   background-image: url("../img/StartupWE.png");
   background-size:contain; /* Important*/
   background-repeat: no-repeat;

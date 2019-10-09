@@ -1,4 +1,4 @@
-html, body {
+Hhtml, body {
   height: 100%;
   max-width: 100%;
   margin: 0;
@@ -33,7 +33,7 @@ div#nav {
   height: auto;
   width: 100%;
   margin-bottom: -20px;
-  position: sticky;
+  position: relative;
   top: 0;
 }
 ul {
@@ -130,25 +130,33 @@ th {
 /* PROGRAMME END*/
 /* FOOTER BEGIN*/
 footer {
-  height: 250px;
-  width: 100%;
+  display: flex;
   background-color: #3C3C3C;
   margin: 0;
-  padding: 0;
+  padding top: 25;
 }
-#footcontainer {
+#footcontainer #partners {
   display: flex;
   justify-content: space-around;
   font-family: 'Poppins', sans-serif;
-  font-size: 25px;
+  font-size: 1.5em;
   color:white;
+  flex-grow: 1.5;
+  align-self: stretch;
+
 }
 footer p {
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 0.6em;
     color:black;
+    margin-top: -3px;
 }
-.tel {
-    font-size: 15px;
+
+iframe{
+  height:150px;
+  width:200px;
 }
+
+}
+.
 /* FOOTER END */

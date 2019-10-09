@@ -17,9 +17,9 @@
   <div id="nav">
     <ul>
       <li><a href="#"><div class="nav-button-size">Accueil</div></a></li>
-      <li><div class="nav-button-size">Introduction</div></li>
-      <li><div class="nav-button-size">Participants</div></li>
-      <li><div class="nav-button-size">Présentation</div></li>
+      <li><a href="#presentation-rapide"><div class="nav-button-size">Présentation</div></a></li>
+      <li><a href="#participants"><div class="nav-button-size">Participants</div></a></li>
+      <li><a href="#programme"><div class="nav-button-size">Planning</div></a></li>
     </ul>
   </div>
   <!-- BARRE DE NAVIGATION -->
@@ -28,6 +28,7 @@
   <div id="participants">
   </div>
   <div id="programme">
+    <div id="flex-titre">Planning du Week-end</div>
     <!-- TABLE VENDREDI BEGIN -->
     <table id="vendredi">
       <tr id="titre-vendredi">
@@ -37,89 +38,91 @@
         <td><b>17:30</b> - Accueil des participants</td>
       </tr>
       <tr>
-        <td><p><b>19:00</b> - Briefing et point important</p>
-          <b>19:30</b> - Team-up Faisons connaissance !</td>
+        <td><b>19:00</b> - Briefing et point important</td>
+      </tr>
+      <tr>
+        <td><b>19:30</b> - Team-up Faisons connaissance !</td>
+      </tr>
+      <tr>
+        <td><b>20:30</b> -  Conférence + PizzaSpeaker:<br>
+          Mr Monvoisin Thème: Le web mobile de demain</td>
         </tr>
         <tr>
-          <td><b>20:30</b> -  Conférence + PizzaSpeaker:<br>
-            Mr Monvoisin Thème: Le web mobile de demain</td>
+          <td class="bottom-planning"><b>21:30</b> -  Au travail ! Enregistrement des équipes et début du travail en groupe.</td>
+        </tr>
+      </table>
+      <!-- TABLE VENDREDI END -->
+      <!-- TABLEAU SAMEDI BEGIN -->
+      <table id="samedi">
+        <tr id="titre-samedi">
+          <th>Samedi</th>
+        </tr>
+        <tr>
+          <td><b>8:00</b> - Petit-déjeuner : Offert par notre sponsor, Hotel La Manu (jusque 9h)<br>
+            Café, pain frais et confiture locale pour regagner des forces !</td>
           </tr>
           <tr>
-            <td><b>21:30</b> -  Au travail ! Enregistrement des équipes et début du travail en groupe.</td>
+            <td><b>9:00</b> - Au travail ! Démarrez les moteurs</td>
+          </tr>
+          <tr>
+            <td><b>12:00</b> - Repas #goodfood</td>
+          </tr>
+          <tr>
+            <td><b>14:00</b> - Au travail ! Reprise du StartUp Week-end</td>
+          </tr>
+          <tr>
+            <td><b>20:00</b> - A table ! </td>
+          </tr>
+          <tr>
+            <td class="bottom-planning"><b>21:00</b> - Au travail ! Le StartUp Week-end continue !</td>
           </tr>
         </table>
-        <!-- TABLE VENDREDI END -->
-        <!-- TABLEAU SAMEDI BEGIN -->
-        <table id="samedi">
-          <tr id="titre-samedi">
-            <th>Samedi</th>
+        <!-- TABLEAU SAMEDI END -->
+        <!-- TABLEAU DIMANCHE BEGIN -->
+        <table id="dimanche">
+          <tr id="titre-dimanche">
+            <th>Dimanche</th>
           </tr>
           <tr>
-            <td><b>8:00</b> - Petit-déjeuner : Offert par notre sponsor, Hotel La Manu (jusque 9h)<br>
+            <td><b>8:00</b> - Petit-déjeuner : Offert par notre sponsor, La Cantine de Sarah (jusque 9h)<br>
               Café, pain frais et confiture locale pour regagner des forces !</td>
             </tr>
             <tr>
-              <td><b>9:00</b> - Au travail ! Démarrez les moteurs</td>
+              <td><b>9:00</b> - Au travail ! Here we go!</td>
             </tr>
             <tr>
-              <td><b>12:00</b> - Repas #goodfood</td>
+              <td><b>12:00</b> - A table !</td>
             </tr>
             <tr>
-              <td><b>14:00</b> - Au travail ! Reprise du StartUp Week-end</td>
+              <td><b>14:00</b> - Le Break On se détend et on respire</td>
             </tr>
             <tr>
-              <td><b>20:00</b> - A table ! </td>
+              <td><b>15:00</b> - Au travail ! Allez un dernier effort!</td>
             </tr>
             <tr>
-              <td><b>21:00</b> - Au travail ! Le StartUp Week-end continue !</td>
+              <td><b>16:30</b> - Ouverture au public Accueil du public de la grande soirée de clôture</td>
+            </tr>
+            <tr>
+              <td class="bottom-planning"><b>17:00</b> - Présentation du Startup Weekend au public</td>
             </tr>
           </table>
-          <!-- TABLEAU SAMEDI END -->
-          <!-- TABLEAU DIMANCHE BEGIN -->
-          <table id="dimanche">
-            <tr id="titre-dimanche">
-              <th>Dimanche</th>
-            </tr>
-            <tr>
-              <td><b>8:00</b> - Petit-déjeuner : Offert par notre sponsor, La Cantine de Sarah (jusque 9h)<br>
-                Café, pain frais et confiture locale pour regagner des forces !</td>
-              </tr>
-              <tr>
-                <td><b>9:00</b> - Au travail ! Here we go!</td>
-              </tr>
-              <tr>
-                <td><b>12:00</b> - A table !</td>
-              </tr>
-              <tr>
-                <td><b>14:00</b> - Le Break On se détend et on respire</td>
-              </tr>
-              <tr>
-                <td><b>15:00</b> - Au travail ! Allez un dernier effort!</td>
-              </tr>
-              <tr>
-                <td><b>16:30</b> - Ouverture au public Accueil du public de la grande soirée de clôture</td>
-              </tr>
-              <tr>
-                <td><b>17:00</b> - Présentation du Startup Weekend au public</td>
-              </tr>
-            </table>
+        </div>
+        <!-- TABLEAU DIMANCHE END -->
+      </div>
+      <!-- FOOTER BEGIN -->
+      <footer>
+        <div id="footcontainer">
+          <div id="contact">
+            <span>Nous contacter</span>
+            <p>contact-amiens@lamanu.fr</p>
+            <p class="tel">Tél. 09-86-27-17-04</p>
           </div>
-            <!-- TABLEAU DIMANCHE END -->
+          <div id="adresse">
+            <span>Où nous trouver</span>
+            <p>70 Rue des Jacobins - 80090 Amiens</p>
           </div>
-          <!-- FOOTER BEGIN -->
-          <footer>
-            <div id="footcontainer">
-              <div id="contact">
-                <span>Nous contacter</span>
-                <p>contact-amiens@lamanu.fr</p>
-                <p class="tel">Tél. 09-86-27-17-04</p>
-              </div>
-              <div id="adresse">
-                <span>Où nous trouver</span>
-                <p>70 Rue des Jacobins - 80090 Amiens</p>
-              </div>
-              <span>Nos partenaires</span>
-          </footer>
-          <!-- FOOTER END -->
-        </body>
-        </html>
+          <span>Nos partenaires</span>
+        </footer>
+        <!-- FOOTER END -->
+      </body>
+      </html>

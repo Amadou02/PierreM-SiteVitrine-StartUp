@@ -33,7 +33,7 @@ div#nav {
   height: auto;
   width: 100%;
   margin-bottom: -20px;
-  position: sticky;
+  position: relative;
   top: 0;
 }
 ul {
@@ -90,11 +90,25 @@ li:first-child {
 }
 /* PARTICIPANTS END*/
 /* PROGRAMME BEGIN*/
+#flex-titre {
+  font-family: "Poppins";
+  text-decoration: underline overline;
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  padding-top: 45px;
+  margin-bottom: -100px;
+  font-size: 400%;
+  color: white;
+  cursor: default;
+}
 #programme {
   height: 750px;
   width: 100%;
   background-color: #1A4766;
   display: flex;
+  flex-wrap: wrap;
 }
 table {
   font-family: 'Lato';
@@ -120,12 +134,20 @@ td {
   padding-left: 10px;
   padding-right: 5px;
 }
+td:hover {
+  background-color: #E0E0E0;
+  cursor: default;
+}
+.bottom-planning:hover {
+  border-radius: 0 0 25px 25px;
+}
 th {
   background-color: #29AAE3;
   color: white;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  border-bottom: 4px solid gray;
 }
 /* PROGRAMME END*/
 /* FOOTER BEGIN*/

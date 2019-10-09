@@ -135,7 +135,7 @@ footer {
   margin: 0;
   padding top: 25;
 }
-#footcontainer #partners {
+#footcontainer {
   display: flex;
   justify-content: space-around;
   font-family: 'Poppins', sans-serif;
@@ -157,6 +157,6 @@ iframe{
   width:200px;
 }
 
-}
+
 .
 /* FOOTER END */

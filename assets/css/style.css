@@ -144,9 +144,10 @@ footer {
   flex-grow: 1.5;
   align-self: stretch;
 }
-.reseau
+.reseau a
 {
   text-decoration: none;
+  color: white;
 }
 
 

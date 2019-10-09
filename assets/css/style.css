@@ -24,7 +24,6 @@ html, body {
   margin-left: 120px;
   width: 90%;
   height: 90%;
-  -webkit-filter: brightness(500%);
   object-fit: contain;
 }
 /* HEADER END*/
